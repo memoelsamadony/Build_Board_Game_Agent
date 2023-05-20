@@ -18,6 +18,11 @@ MAX_FPS = 25  # FPS for animations
 IMAGES = {}  # images for the chess pieces
 MENU_SIZE = (640, 480)
 # TODO: AI black has been worked on. Mirror progress for other two modes
+
+py.mixer.init()
+py.mixer.music.load("Chess_Music.mp3")
+py.mixer.music.play(-1) 
+
 def load_images():
     '''
     Load images for the chess pieces
@@ -305,6 +310,10 @@ def main():
 
         clock.tick(MAX_FPS)
         py.display.flip()
+    py.mixer.music.stop()
+    py.quit()
+    sys.exit()
+
 
 
 
