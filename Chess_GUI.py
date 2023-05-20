@@ -1,3 +1,13 @@
+"""
+This code was written by:
+1- Mohamad Amr Shehab           20208041
+2- Mahmoud Labib Elsamadony     20208029
+3- Ahmed Alaa Mohamed AbdElazim 20208003
+4- Mohamed Ahmed Sayed          20208025   
+5- Abdulrahman Mohamed Mezar    20208018
+6- Mazen Mustafa Muhammed       20208024
+"""
+
 import os
 import sys
 import time
