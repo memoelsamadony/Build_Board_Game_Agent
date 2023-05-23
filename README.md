@@ -18,19 +18,27 @@ as well as the search tool,color and difficulty. Afterwards the game begins and 
 Main project Files :
 
 1. Chess_Class.py :
+
              - That is where the chess game is implemented
 2. Chess_GUI.py :
+
              - That is where the GUI is made, also that is where the program is run from
 3. data.txt :
+
              - The file that contains the data used to measure the performance of each agent
 4. report.ipynb :
+
              - jupyter notebook file which uses the data in data.txt to generate graphs that describes each agent performance 
              - And how they compare to one another
 5. Performance Measure Report.pdf :
+
              - pdf file which contains the full report about the two agents
 6. images and report images folders :
+
              - folders that contain images used by the GUI and the report
 
+
+This project required a shared post on linkedin [here](https://www.linkedin.com/feed/update/urn:li:activity:7065762603544772608/)
 
 ## How to run the program
 After downloading the above files:
@@ -67,7 +75,7 @@ the user get to choose from each option like this :
 
 ![image](https://github.com/memoelsamadony/Build_Board_Game_Agent/assets/91777656/7c688a95-b618-4e2a-a1e8-0e9972bb1742)
 
-then the game start like this : 
+then the game start playing like this : 
 
 ![image](https://github.com/memoelsamadony/Build_Board_Game_Agent/assets/91777656/9aa49458-ab30-45e5-bd90-ea6f399053b1)
 
