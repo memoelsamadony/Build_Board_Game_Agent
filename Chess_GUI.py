@@ -168,7 +168,7 @@ def display_menu(screen,params):
     )
    
     def set_search_tool(x,index):
-        params[1] = x
+        params[1] = x[0][1]
     menu_Tool.add.selector('Search Tool :', [('Iterative Deepening', True), ('Depth Limited', False)], onchange=set_search_tool)
 
     menu_Difficulty = py_menu.Menu(
@@ -190,7 +190,7 @@ def display_menu(screen,params):
         width=MENU_SIZE[0] ,
     )
     def set_color(x,index):
-        params[3] = x 
+        params[3] = x[0][1] 
     menu_Color.add.selector('Color :', [('White', 'White'), ('Black', 'Black')], onchange=set_color)
     def start_game():
         main_menu.disable()
@@ -274,10 +274,10 @@ def main():
                 agent_working = True
 
             if not move_finder_process.is_alive():
-                ai_move = return_queue.get()
-                if ai_move is None:
-                    ai_move = current.findRandomMove(valid_moves)
-                game_state.makeMove(ai_move)
+                move = return_queue.get()
+                if move is None:
+                    move = current.findRandomMove(valid_moves)
+                game_state.makeMove(move)
                 end_time = time.time()
                 time_taken = end_time - start_time
                 if game_state.white_to_move:
