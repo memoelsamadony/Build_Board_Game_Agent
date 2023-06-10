@@ -71,18 +71,23 @@ you can install any library of the above using the following command :
 ## How to use the program
 After running the program and the above menu displayed :
 
-the user get to choose from each option like this :
+The user get to choose from each option like this :
 
 ![image](https://github.com/memoelsamadony/Build_Board_Game_Agent/assets/91777656/7c688a95-b618-4e2a-a1e8-0e9972bb1742)
 
-then the game start playing like this : 
+Then the game start playing like this : 
 
 ![image](https://github.com/memoelsamadony/Build_Board_Game_Agent/assets/91777656/9aa49458-ab30-45e5-bd90-ea6f399053b1)
 
 
+You can find the report in the 'Performance Measure Report.pdf' , here is a sample of it :
+
+![image](https://github.com/memoelsamadony/Build_Board_Game_Agent/assets/91777656/54b2fc5a-30fa-4d35-b134-9f29d58aebc3)
+
+
 ## credits 
 
-We would like to thank all our peers at college
+We would like to thank all our peers at college , Cairo University
 
 
 
